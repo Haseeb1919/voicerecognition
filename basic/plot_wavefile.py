@@ -2,7 +2,7 @@ import wave
 import matplotlib.pyplot as plt
 import numpy as np
 
-obj = wave.open('conference.wav','rb') #open the file
+obj = wave.open('audio\Conference.wav','rb') #open the file
 
 sample_rate = obj.getframerate() #get the sample rate
 total_frames = obj.getnframes() #get the total frames
